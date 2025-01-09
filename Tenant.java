@@ -1,5 +1,4 @@
 import java.util.*;
-import User.java;
 
 public class Tenant {
     public User user;
