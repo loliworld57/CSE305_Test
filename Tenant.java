@@ -4,7 +4,10 @@ import User.java;
 public class Tenant {
     public User user;
     public List<RentalContract> listRental;
-    public Tenant(User u){
-        this.user = u;
+    public void createRentalContract(RentalContract rt){
+        listRental.add(rt);
+    }
+    public void removeRentalContract(RentalContract rt){
+        listRental.remove(rt);
     }
 }
