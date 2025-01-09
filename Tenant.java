@@ -1,8 +1,8 @@
 import java.util.*;
-
+import User.java;
 
 public class Tenant {
-    public User u;
+    public User user;
     public List<RentalContract> listRental;
     public void createRentalContract(RentalContract rt){
         listRental.add(rt);
