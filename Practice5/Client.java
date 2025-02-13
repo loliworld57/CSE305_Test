@@ -1,4 +1,7 @@
+package Practice5;
+
 import java.util.*;
+
 
 public class Client {
     List<Contract> contracts;
@@ -9,6 +12,7 @@ public class Client {
         contract.buildPropertyID(pID);
         contract.buildTenantID(tID);
         contract.buildRentAmount(rA);
+        contract.signContract();
         contracts.add(contract);
     }
 }
