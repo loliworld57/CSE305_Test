@@ -1,6 +1,6 @@
 package Practice5;
-
-interface Contract {
+import java.util.*;
+public interface Contract {
     Contract buildContractID(String contractID);
     Contract buildPropertyID(String propertyID);
     Contract buildTenantID(String tenantID);
