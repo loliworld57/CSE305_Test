@@ -33,7 +33,7 @@ public class RequestCreator {
         }
     }
 
-    public void processRequest(RequestProduct request) {
-        request.processRequest();
+    public void processRequest(RequestProduct request, String function) {
+        request.processRequest(function);
     }
 }

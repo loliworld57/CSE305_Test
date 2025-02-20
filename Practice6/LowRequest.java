@@ -15,8 +15,8 @@ public class LowRequest implements RequestProduct {
     }
 
     @Override
-    public void processRequest() {
-        System.out.println("Low priority request processed.");
+    public void processRequest(String function) {
+        System.out.println(function);
     }
 
     @Override
@@ -37,6 +37,7 @@ public class LowRequest implements RequestProduct {
     public String getStatus() {
         return status;
     }
+    
 
     public String getExpireDay() {
         return expireDay;

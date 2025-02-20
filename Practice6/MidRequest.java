@@ -15,8 +15,8 @@ public class MidRequest implements RequestProduct {
     }
 
     @Override
-    public void processRequest() {
-        System.out.println("Mid priority request processed.");
+    public void processRequest(String function) {
+        System.out.println(function);
     }
 
     @Override
